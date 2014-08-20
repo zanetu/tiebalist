@@ -1,0 +1,34 @@
+[Adblock Plus 2.0]
+! Version: 201408200000
+! Title: Tieba List
+! Expires: 8 hours (update frequency)
+! Homepage: https://github.com/zanetu/tiebalist
+! Licence: GNU GPL v2
+! * Resembles old school Tieba interface. Works best with Chinese Filter list. 
+!
+!贴吧头图
+tieba.baidu.com##.plat_banner.j_platform_banner,.card_banner,.star_banner
+!贴吧名片的头像部分
+tieba.baidu.com##[class*="j_"][class*="_picbox"],.card_head
+!指引
+tieba.baidu.com##.top_content
+!明星贴吧的时光轴、收藏
+tieba.baidu.com##[class*="star_collect_"]
+!今日话题除标题以外的部分
+tieba.baidu.com###topic_thread_wrapper,#tt_text_cnt
+!预览图、视频
+tieba.baidu.com##.threadlist_media.j_threadlist_media
+!T豆
+tieba.baidu.com###encourage_entry
+!贴吧商城
+tieba.baidu.com##[id*="tbmall"]
+!贴吧会员
+tieba.baidu.com##.u_tshow,.u_joinvip
+!吧特权包
+tieba.baidu.com##.fMember_cnt
+!发起猜拳贴
+tieba.baidu.com##.add_guessing_btn
+!导航栏的游戏
+tieba.baidu.com###j_navtab_game
+!白名单
+@@||bdstatic.com^
