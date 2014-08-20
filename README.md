@@ -12,4 +12,6 @@
 ![After](https://cloud.githubusercontent.com/assets/3144970/3982520/7cd6d9de-2877-11e4-952a-251e83ff1498.jpg)
 
 #### 备注
+- 此脚本受作者个人喜好的影响较大，请谨慎使用
 - 建议先订阅[EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)和[EasyList China](https://easylist-downloads.adblockplus.org/easylistchina.txt)
+- [“神殤￠無月”的贴吧去广告订阅地址](https://code.csdn.net/i_square/i/blob/master/iFL.txt)
