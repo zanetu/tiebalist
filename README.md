@@ -1,5 +1,6 @@
 ## Tieba List
 精简百度贴吧的界面
+订阅地址： https://rawgit.com/zanetu/tiebalist/master/tiebalist.txt
 
 #### 功能
 - 隐藏绝大部分图片、视频预览（类似于已经不存在的“返回旧版”）
