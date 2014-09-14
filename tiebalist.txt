@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Version: 201408290000
+! Version: 201409130000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
 ! Licence: GNU GPL v2
-! * Resembles old school Tieba interface. Works best with Chinese Filter list. 
+! * Resembles old school Tieba interface. Works best with userstyles.org/styles/104175/kill-tieba-ad . 
 !
 !贴吧头图
 tieba.baidu.com##.plat_banner.j_platform_banner,.card_banner,.star_banner
@@ -23,11 +23,13 @@ tieba.baidu.com###threadListGroupCnt>.listBtnCnt,#threadListGroupCnt>.listDescCn
 !预览图、视频
 tieba.baidu.com##.threadlist_media.j_threadlist_media
 !广告转贴
-tieba.baidu.com##[class^="order_repost_"]
+tieba.baidu.com##[class*="_repost_wrapper"]
 !T豆
 tieba.baidu.com###encourage_entry
+!拳王争霸赛
+tieba.baidu.com##.guessing_watermark
 !贴吧商城
-tieba.baidu.com##[id*="tbmall"]
+tieba.baidu.com##[id*="tbmall"],[class*="_mall_"]
 !贴吧会员
 tieba.baidu.com##.u_tshow,.u_joinvip
 !吧特权包
@@ -36,5 +38,12 @@ tieba.baidu.com##.fMember_cnt
 tieba.baidu.com##.add_guessing_btn
 !导航栏的游戏
 tieba.baidu.com###j_navtab_game
-!白名单
-@@||bdstatic.com^
+!本帖相关和本吧精品
+tieba.baidu.com##.thread_recommend
+!发贴气泡
+tieba.baidu.com##.post_bubble_top,.post_bubble_bottom
+||bdstatic.com/tb/cms/post/bubble/*.png
+!挽尊
+tieba.baidu.com##[class^="save_face_"]
+!超级会员红色主题; 可能会被EasyList China的白名单阻止
+/tb/_/frs_user_base_1510bc0.css
