@@ -3,6 +3,7 @@
 
 订阅地址： https://rawgit.com/zanetu/tiebalist/master/tiebalist.txt
 
+配合[【贴吧去广告+去特权】kill-tieba-ad](https://userstyles.org/styles/104175/kill-tieba-ad)使用效果更佳
 
 #### 功能
 - 隐藏绝大部分图片、视频预览（类似于已经不存在的“返回旧版”）
@@ -16,5 +17,5 @@
 
 #### 备注
 - 此脚本受作者个人喜好的影响较大，请谨慎使用
-- 建议先订阅[EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)和[EasyList China](https://easylist-downloads.adblockplus.org/easylistchina.txt)
+- 建议先订阅[EasyList](https://easylist-downloads.adblockplus.org/easylist.txt)
 - [“神殤￠無月”的贴吧去广告订阅地址](https://code.csdn.net/i_square/i/blob/master/iFL.txt)
