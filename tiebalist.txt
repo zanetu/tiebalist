@@ -55,3 +55,9 @@ tieba.baidu.com##.firework_sender_wrap
 tieba.baidu.com##.icon_wanle
 !好玩的都在这儿
 tieba.baidu.com##.wanle_tab_tip
+!地方特产
+tieba.baidu.com##.df_card
+!直播
+tieba.baidu.com##.top_iframe
+!推广
+tieba.baidu.com##li[data-daid]
