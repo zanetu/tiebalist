@@ -65,3 +65,7 @@ tieba.baidu.com##li[data-daid]
 tieba.baidu.com##.thread_recommend_ps
 !顶部内容
 tieba.baidu.com##.content_top
+!贴吧极速版
+tieba.baidu.com##.advertise_right_index.advertise_right_frs
+!票务
+tieba.baidu.com##.piao_content
