@@ -69,3 +69,5 @@ tieba.baidu.com##.content_top
 tieba.baidu.com##.advertise_right_index.advertise_right_frs
 !票务
 tieba.baidu.com##.piao_content
+!回帖奖品
+tieba.baidu.com##.reward_frs_list_wrap
