@@ -71,3 +71,5 @@ tieba.baidu.com##.advertise_right_index.advertise_right_frs
 tieba.baidu.com##.piao_content
 !回帖奖品
 tieba.baidu.com##.reward_frs_list_wrap
+!贴吧贡献榜
+tieba.baidu.com##[id="bonus_forum_aside "]
