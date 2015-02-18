@@ -75,3 +75,7 @@ tieba.baidu.com##.reward_frs_list_wrap
 tieba.baidu.com##[id^="bonus_forum_aside"]
 !百度浏览器
 tieba.baidu.com###local_single_img
+!春节吐槽晚会
+tieba.baidu.com##.timing_popup_modal.timing_popup_show
+!喷春晚
+tieba.baidu.com###activity_nav_barrage_spring_enter
