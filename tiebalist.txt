@@ -79,3 +79,6 @@ tieba.baidu.com###local_single_img
 tieba.baidu.com##.timing_popup_modal.timing_popup_show
 !喷春晚
 tieba.baidu.com###activity_nav_barrage_spring_enter
+!羊年大吉
+tieba.baidu.com##li.j_thread_list>div:nth-child(1):not([class])
+||bdstatic.com/tb/cms/ngmis/file_1423019499058.png
