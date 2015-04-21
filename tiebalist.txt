@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201504130000
+! Version: 201504210000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
@@ -7,7 +7,9 @@
 ! * Resembles old school Tieba interface. Works best with userstyles.org/styles/104175/kill-tieba-ad . 
 !
 !贴吧头图
-tieba.baidu.com##.plat_banner.j_platform_banner,.card_banner,.star_banner
+tieba.baidu.com##.plat_banner.j_platform_banner,.card_banner,.star_banner,.j_head_bg_card_banner
+!地方版块
+tieba.baidu.com###local_board
 !贴吧名片的头像部分
 tieba.baidu.com##[class*="j_"][class*="_picbox"],.card_head
 !指引
