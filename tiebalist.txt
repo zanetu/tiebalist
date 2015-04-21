@@ -59,6 +59,10 @@ tieba.baidu.com##.icon_wanle
 tieba.baidu.com##.wanle_tab_tip
 !地方特产
 tieba.baidu.com##.df_card
+!地方百度推广招代理
+tieba.baidu.com###local_muti_img
+!地方特别推荐
+tieba.baidu.com###local_special_rcmd
 !直播
 tieba.baidu.com##.top_iframe
 !推广
