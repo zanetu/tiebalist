@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201504210000
+! Version: 201504230000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
@@ -8,14 +8,14 @@
 !
 !贴吧头图
 tieba.baidu.com##.plat_banner.j_platform_banner,.card_banner,.star_banner,.j_head_bg_card_banner
-!地方版块
-tieba.baidu.com###local_board
 !贴吧名片的头像部分
 tieba.baidu.com##[class*="j_"][class*="_picbox"],.card_head
 !指引
 tieba.baidu.com##.top_content
 !明星贴吧的时光轴、收藏
 tieba.baidu.com##[class*="star_collect_"]
+!地方版块
+tieba.baidu.com###local_board
 !企业平台认证贴吧介绍
 tieba.baidu.com##[class*="plat_head_v2_"][class*="_wrapper"],[class="kn_nine_wrap"]
 !今日话题除标题以外的部分
@@ -36,6 +36,8 @@ tieba.baidu.com##[id*="tbmall"],[class*="_mall_"]
 tieba.baidu.com##.u_tshow,.u_joinvip
 !吧特权包
 tieba.baidu.com##.fMember_cnt
+!我的T豆、蓝钻
+tieba.baidu.com##.userinfo_scores
 !发起猜拳贴
 tieba.baidu.com##.add_guessing_btn
 !导航栏的游戏
@@ -71,6 +73,8 @@ tieba.baidu.com##li[data-daid]
 tieba.baidu.com##.thread_recommend_ps
 !顶部内容
 tieba.baidu.com##.content_top
+!顶部活动
+tieba.baidu.com###top_activity
 !贴吧极速版
 tieba.baidu.com##.advertise_right_index.advertise_right_frs
 !票务
@@ -89,4 +93,6 @@ tieba.baidu.com###activity_nav_barrage_spring_enter
 tieba.baidu.com##li.j_thread_list>div:nth-child(1):not([class])
 !贴吧合伙人
 tieba.baidu.com##.platform_aside_tieba_partner
+!相关的贴子、图贴
+tieba.baidu.com##.thread_recommend
 ||bdstatic.com/tb/cms/ngmis/file_1423019499058.png
