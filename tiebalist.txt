@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201505220000
+! Version: 201506100000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
@@ -42,11 +42,11 @@ tieba.baidu.com##.userinfo_scores
 tieba.baidu.com##.add_guessing_btn
 !导航栏的游戏
 tieba.baidu.com###j_navtab_game
-!本帖相关和本吧精品
+!本帖相关（贴子、图贴））和本吧精品
 tieba.baidu.com##.thread_recommend
 !发贴气泡
 tieba.baidu.com##.post_bubble_top,.post_bubble_bottom
-||bdstatic.com/tb/cms/post/bubble/*.png
+||bdstatic.com/tb/cms/post/bubble/*2.png
 !挽尊
 tieba.baidu.com##[class^="save_face_"]
 !游戏iframe
@@ -69,6 +69,7 @@ tieba.baidu.com###local_special_rcmd
 tieba.baidu.com##.top_iframe
 !推广
 tieba.baidu.com##li[data-daid]
+tieba.baidu.com###thread_list>li:not([class*="_list"])
 !相关推荐
 tieba.baidu.com##.thread_recommend_ps
 !顶部内容
@@ -83,6 +84,8 @@ tieba.baidu.com##.piao_content
 tieba.baidu.com##.reward_frs_list_wrap
 !贴吧特权礼包
 tieba.baidu.com###celebrity
+!贴吧特权
+tieba.baidu.com##.edui-btn-medal
 !贴吧贡献榜
 tieba.baidu.com##[id^="bonus_forum_aside"]
 !百度浏览器
@@ -95,6 +98,20 @@ tieba.baidu.com###activity_nav_barrage_spring_enter
 tieba.baidu.com##li.j_thread_list>div:nth-child(1):not([class])
 !贴吧合伙人
 tieba.baidu.com##.platform_aside_tieba_partner
-!相关的贴子、图贴
-tieba.baidu.com##.thread_recommend
+!印记
+tieba.baidu.com##.d_icons,.icon_wrap
+!个性铭牌
+tieba.baidu.com##.d_nameplate
+!贴吧超级会员
+tieba.baidu.com##.pre_icon_wrap
+!点击统计
+tieba.baidu.com##.j_click_stats
+!可能感兴趣的吧
+tieba.baidu.com###forum_recommend
+!贴吧搜索置顶
+tieba.baidu.com##.search_main_fixed
+!帖内标题置顶
+tieba.baidu.com##.tbui_follow_fixed.core_title_absolute_bright
+!上传图片等对话框的背景覆盖层
+tieba.baidu.com##.dialogJmodal
 ||bdstatic.com/tb/cms/ngmis/file_1423019499058.png
