@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201506300000
+! Version: 201507070000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
@@ -43,8 +43,10 @@ tieba.baidu.com##.userinfo_scores
 tieba.baidu.com##.add_guessing_btn
 !导航栏的游戏
 tieba.baidu.com###j_navtab_game
-!本帖相关（贴子、图贴））和本吧精品
+!本帖相关（贴子、图贴）和本吧精品
 tieba.baidu.com##.thread_recommend
+!推荐应用
+tieba.baidu.com##[id="pagelet_encourage-appforum/pagelet/my_app"]
 !发贴气泡
 tieba.baidu.com##.post_bubble_top,.post_bubble_bottom
 ||bdstatic.com/tb/cms/post/bubble/*2.png
@@ -86,6 +88,7 @@ tieba.baidu.com##.piao_content
 tieba.baidu.com##.reward_frs_list_wrap
 !贴吧特权礼包
 tieba.baidu.com###celebrity
+tieba.baidu.com##[id="pagelet_encourage-celebrity/pagelet/celebrity"]
 !贴吧特权
 tieba.baidu.com##.edui-btn-medal
 !贴吧贡献榜
@@ -108,12 +111,16 @@ tieba.baidu.com##.d_nameplate
 tieba.baidu.com##.pre_icon_wrap
 !徽章
 tieba.baidu.com##.achievement_medal_wrapper
+!星座
+tieba.baidu.com##.card_userinfo_honor
+!开通会员提示
+tieba.baidu.com##.user_card_vip_tips
 !点击统计
 tieba.baidu.com##.j_click_stats
 !主播
 tieba.baidu.com##.play_list_panel.j_play_list_panel
-!天上掉馅饼
-tieba.baidu.com##.money-promotion-dialog
+!天上掉馅饼、超级大礼包
+tieba.baidu.com##.money-promotion-dialog,.umoney-promotion-dialog
 !可能感兴趣的吧
 tieba.baidu.com###forum_recommend
 !贴吧搜索置顶
