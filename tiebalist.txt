@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201509100000
+! Version: 201509160000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
@@ -69,6 +69,10 @@ tieba.baidu.com##.df_card
 tieba.baidu.com###local_muti_img
 !地方特别推荐
 tieba.baidu.com###local_special_rcmd
+!本地商家、推广链接
+tieba.baidu.com###aside_ad_wrapper
+!贴吧广告招商
+tieba.baidu.com###local_pb_top
 !直播
 tieba.baidu.com##.top_iframe
 !推广
@@ -107,7 +111,9 @@ tieba.baidu.com##.platform_aside_tieba_partner
 !顶部的贴吧图片
 tieba.baidu.com##.head_middle
 !团购
-tieba.baidu.com##.nav_icon.icon_tuan.j_tbnav_tab_a
+tieba.baidu.com##.tuan_new_icon,.star_nav_ico_tuan,.icon_tuan
+!二手
+tieba.baidu.com##.deal_new_icon,.star_nav_ico_deal
 !生活助手
 tieba.baidu.com##.life_helper
 !粉丝节
