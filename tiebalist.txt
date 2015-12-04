@@ -75,6 +75,8 @@ tieba.baidu.com###aside_ad_wrapper
 tieba.baidu.com###local_pb_top
 !直播
 tieba.baidu.com##.top_iframe
+!顶部云抢票
+tieba.baidu.com###plat_recom_carousel
 !推广
 tieba.baidu.com##li[data-daid]
 tieba.baidu.com###thread_list>li:not([class*="_list"])
