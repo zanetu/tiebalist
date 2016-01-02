@@ -113,7 +113,7 @@ tieba.baidu.com##li.j_thread_list>div:nth-child(1):not([class])
 tieba.baidu.com##.platform_aside_tieba_partner
 !顶部的妹子团
 tieba.baidu.com##.head_top
-www.ttthing.com/slmzt/$subdocument,third-party
+www.ttthing.com/slmzt/$subdocument,third-party,domain=tieba.baidu.com
 !顶部的贴吧图片
 tieba.baidu.com##.head_middle
 !团购
