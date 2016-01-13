@@ -25,7 +25,7 @@ tieba.baidu.com###topic_post_thread>.threadlist_li_right>.threadlist_detail,#top
 !访谈直播除标题以外的部分
 tieba.baidu.com###threadListGroupCnt>*:not(dt)
 !预览图、视频
-tieba.baidu.com##.threadlist_media.j_threadlist_media
+tieba.baidu.com##.small_list.j_small_list
 !广告转贴
 tieba.baidu.com##[class*="_repost_wrap"]
 !T豆
