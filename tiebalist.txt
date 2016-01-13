@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 201511040000
+! Version: 201601120000
 ! Title: Tieba List
 ! Expires: 8 hours (update frequency)
 ! Homepage: https://github.com/zanetu/tiebalist
