@@ -25,7 +25,7 @@ tieba.baidu.com###topic_post_thread>.threadlist_li_right>.threadlist_detail,#top
 !访谈直播除标题以外的部分
 tieba.baidu.com###threadListGroupCnt>*:not(dt)
 !预览图、视频
-tieba.baidu.com##.threadlist_media.j_threadlist_media
+tieba.baidu.com##.small_list.j_small_list
 !广告转贴
 tieba.baidu.com##[class*="_repost_wrap"]
 !T豆
@@ -75,6 +75,8 @@ tieba.baidu.com###aside_ad_wrapper
 tieba.baidu.com###local_pb_top
 !直播
 tieba.baidu.com##.top_iframe
+!顶部云抢票
+tieba.baidu.com###plat_recom_carousel
 !推广
 tieba.baidu.com##li[data-daid]
 tieba.baidu.com###thread_list>li:not([class*="_list"])
@@ -109,6 +111,9 @@ tieba.baidu.com###activity_nav_barrage_spring_enter
 tieba.baidu.com##li.j_thread_list>div:nth-child(1):not([class])
 !贴吧合伙人
 tieba.baidu.com##.platform_aside_tieba_partner
+!顶部的妹子团
+tieba.baidu.com##.head_top
+www.ttthing.com/slmzt/$subdocument,third-party,domain=tieba.baidu.com
 !顶部的贴吧图片
 tieba.baidu.com##.head_middle
 !团购
