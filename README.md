@@ -1,7 +1,7 @@
 ## Tieba List
 精简百度贴吧的界面
 
-订阅地址： https://cdn.rawgit.com/zanetu/tiebalist/master/tiebalist.txt
+订阅地址： [稳定版](https://cdn.rawgit.com/zanetu/tiebalist/master/tiebalist.txt) / [开发版](https://cdn.rawgit.com/zanetu/tiebalist/dev/tiebalist.txt)
 
 配合[【贴吧去广告+去特权】kill-tieba-ad](https://userstyles.org/styles/104175/kill-tieba-ad)使用效果更佳
 
